@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+  <h2> Registration Form</h2>
+  <br>
+
+    <form>
+        <div>
+            <label for="fullname"> Full name: </label>
+            <input type="text" id="fullname" placeholder="Enter your full name" size="40" name="fullname" autofocus> 
+        </div>
+        <br>
+
+        <div>
+            <label for="username"> Username: </label>
+            <input type="text" id="username" placeholder="Enter your username" size="40" name="username" required> 
+        </div>
+        <br>
+
+         <div>
+            <label for="DOB"> Date of birth: </label>
+            <input type="date" id="DOB" placeholder="Enter your birth date" name="DOB" required> 
+        </div>
+        <br>
+
+        <div>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" placeholder="Enter your email" size="40" name="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="file"> Upload file </label>
+            <input type="file" id="file" placeholder="Upload file">
+        </div>
+        <br>
+
+        <div>
+            <label for="country"> Country: </label>
+            <select id="country" name="country">
+                <option value="Select country"> Select country </option>
+                <option value="Nigeria"> Nigeria </option>
+                <option value="China"> China </option>
+                <option value="USA"> USA </option>
+                <option value="UK"> UK </option>
+                <option value="Canada"> Canada </option>
+                <option value="Australia"> Australia </option>
+                <option value="Kenya"> Australia </option>
+
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="password"> Password: </label>
+            <input type="password" id="password" placeholder="Enter your password" size="40" name="password" required> 
+        </div>
+        <br>
+
+        <div>
+            <label for="terms&conditions" >
+            <input type="checkbox" id="terms&conditions" name="terms&conditions" value="terms">
+            I agree to the terms and conditions  </label> 
+        </div>
+        <br><br>
+
+       <button type="submit"> Submit</button>
+    </form>
+</body>
+</html>
